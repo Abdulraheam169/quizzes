@@ -27,7 +27,7 @@
   {
     "id": 3,
     "question": "لدينا التابع التالي ويتم تعبير عنه بالتابع F(A,B,C) ، ماهي العلاقة الممثلة بهذا التابع ؟",
-    "img": "/3.jpg",
+    "img": "/.3.jpg",
     "answers": [
       { "key": "A", "text": "m(0,1,2,3,4,5,6,7)" },
       { "key": "B", "text": "m(0,3,6,7)" },
@@ -46,7 +46,7 @@
       { "key": "C", "text": "m(1,2,5)" },
       { "key": "D", "text": "m(1,2,4,5)" }
     ],
-    "img": "/6.jpg",
+    "img": "./4.jpg",
 
     "correct": ["C"],
     "choosenKey": []
@@ -60,7 +60,7 @@
       { "key": "C", "text": "m(1,2,3,4,5)" },
       { "key": "D", "text": "m(1,2,4,6)" }
     ],
-    "img": "/5.jpg",
+    "img": "./5.jpg",
 
     "correct": ["B"],
     "choosenKey": []
@@ -74,7 +74,7 @@
       { "key": "C", "text": "Carry=Σ m(0) · Sum=Σ m(3)" },
       { "key": "D", "text": "Carry=Σ m(3) · Sum=Σ m(0)" }
     ],
-    "img": "/6.jpg",
+    "img": "./6.jpg",
 
     "correct": ["A"],
     "choosenKey": []
@@ -178,7 +178,7 @@
       { "key": "C", "text": "011" },
       { "key": "D", "text": "101" }
     ],
-    "img": "/14.jpg",
+    "img": "./14.jpg",
 
     "correct": ["C"],
     "choosenKey": []
@@ -250,7 +250,7 @@
       { "key": "A", "text": "صح" },
       { "key": "B", "text": "خطأ" }
     ],
-    "img": "/1-1.jpg",
+    "img": "./1-1.jpg",
 
     "correct": ["B"],
     "choosenKey": []
@@ -262,7 +262,7 @@
       { "key": "A", "text": "صح" },
       { "key": "B", "text": "خطأ" }
     ],
-    "img": "/1-2.jpg",
+    "img": "./1-2.jpg",
 
     "correct": ["B"],
     "choosenKey": []
