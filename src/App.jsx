@@ -52,7 +52,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
+    <div className=" cont min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
       <div className="linko">
         {" "}
         <a
@@ -88,7 +88,6 @@ export default function App() {
             )}
           </>
         ) : (
-          /* هنا تظهر النتائج فقط بعد ضغط الزر (تم تصحيح الأقواس) */
           <div className="space-y-4">
             <h2 className="text-2xl font-black text-center text-gray-800 mb-4">
               Your Results
@@ -105,7 +104,6 @@ export default function App() {
 
                 <div className="flex flex-col gap-2">
                   {qus.answers.map((answer) => {
-                    // فحص إذا كان المستخدم اختار هذا الخيار
                     const isChoosen = qus.choosenKey.includes(answer.key);
                     const isCorrect = qus.correct.includes(answer.key);
                     const isNotCorrect =
@@ -139,6 +137,10 @@ export default function App() {
           </div>
         )}
       </div>
+      <footer>
+        Made By Abd-Alraheam Al-Roqaya{" "}
+        <a href="https://github.com/Abdulraheam169">Github</a>
+      </footer>
     </div>
   );
 }
