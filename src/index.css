@@ -2,7 +2,7 @@
 .root {
 }
 .cont {
-  height: calc(100vh - 30px);
+  min-height: calc(100vh - 30px);
   position: relative;
   footer {
     height: 30px;
